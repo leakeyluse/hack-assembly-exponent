@@ -1,10 +1,14 @@
-// A = RAM[16] = 3
+// A^s = C
+// RAM[16] ^ RAM[17] = RAM[18]
+// Example: 5^6 = 15625
+
+// A = RAM[16] = 5
 @5
 D=A
 @A
 M=D
 
-// s = RAM[17] = 4
+// s = RAM[17] = 6
 @6
 D=A
 @s
